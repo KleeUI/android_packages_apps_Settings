@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="klee_liquid_glass_title">Liquid glass</string>
+    <string name="klee_liquid_glass_summary">Add translucent effects to Quick Settings and supported apps</string>
+    <string name="klee_liquid_glass_strength_title">Liquid glass strength</string>
+    <string name="klee_liquid_glass_strength_standard">Standard</string>
+    <string name="klee_liquid_glass_strength_strong">Strong</string>
+    <string-array name="klee_liquid_glass_strength_entries">
+        <item>@string/klee_liquid_glass_strength_standard</item>
+        <item>@string/klee_liquid_glass_strength_strong</item>
+    </string-array>
+    <string-array name="klee_liquid_glass_strength_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="klee_liquid_glass_title">液态玻璃</string>
+    <string name="klee_liquid_glass_summary">为下拉控制中心和支持此效果的应用启用半透明材质</string>
+    <string name="klee_liquid_glass_strength_title">液态玻璃强度</string>
+    <string name="klee_liquid_glass_strength_standard">标准</string>
+    <string name="klee_liquid_glass_strength_strong">强</string>
+</resources>

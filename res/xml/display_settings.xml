@@ -102,6 +102,23 @@
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
             settings:keywords="@string/keywords_dark_ui_mode"/>
 
+        <SwitchPreferenceCompat
+            android:key="klee_liquid_glass_enabled"
+            android:title="@string/klee_liquid_glass_title"
+            android:summary="@string/klee_liquid_glass_summary"
+            android:persistent="false"
+            settings:controller="com.android.settings.display.LiquidGlassPreferenceController"/>
+
+        <ListPreference
+            android:key="klee_liquid_glass_strength"
+            android:title="@string/klee_liquid_glass_strength_title"
+            android:dialogTitle="@string/klee_liquid_glass_strength_title"
+            android:entries="@array/klee_liquid_glass_strength_entries"
+            android:entryValues="@array/klee_liquid_glass_strength_values"
+            android:persistent="false"
+            settings:useSimpleSummaryProvider="true"
+            settings:controller="com.android.settings.display.LiquidGlassStrengthPreferenceController"/>
+
         <Preference
             android:fragment="com.android.settings.accessibility.TextReadingPreferenceFragment"
             android:key="text_reading_options"
